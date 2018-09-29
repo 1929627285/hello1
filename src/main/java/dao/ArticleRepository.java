@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ArticleRepository extends ElasticsearchCrudRepository<Arcitle ,Long> {
 
-
+int i =10;
 }
